@@ -1,0 +1,14 @@
+{
+  "name": "com.panda180.laravel/user-manager",
+  "description": "A simple Laravel package for fetching users.",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "UserManager\\": "src/"
+    }
+  },
+  "require": {
+    "php": "^7.4",
+    "illuminate/support": "^8.0"
+  }
+}
